@@ -1,7 +1,7 @@
 <template>
-  <div class="flex bg-green-700 items-center h-96">
+  <div class="flex bg-green-700 items-center">
     <div class="bg-command">
-      <div class="flex flex-col text-white w-1/3 mx-auto py-16 text-center">
+      <div class="flex flex-col text-white w-2/5 px-8 py-16 mx-auto text-center">
         <h2 class="text-4xl font-bold">
           Êtes-vous prêt à commander les meilleurs menus ?
         </h2>

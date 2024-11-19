@@ -28,7 +28,7 @@ function getImageUrl(): string {
   <div class="card flex relative overflow-hidden rounded-xl bg-white shadow-lg">
     <div v-if="alignText === 'left'" class="px-8 pt-16 pb-4 w-2/5 flex flex-col justify-between">
       <div>
-        <div class="font-bold text-5xl">
+        <div class="font-bold text-4xl pl-8">
           <slot></slot>
         </div>
         <p class="text-gray-500 text-md mt-4">{{ itemDescription }}</p>
@@ -46,7 +46,7 @@ function getImageUrl(): string {
     </div>
     <div v-if="alignText !== 'left'" class="px-8 pt-16 pb-4 w-2/5 flex flex-col justify-between">
       <div>
-        <div class="font-bold text-5xl">
+        <div class="font-bold text-4xl">
           <slot></slot>
         </div>
         <p class="text-gray-500 text-md mt-4">{{ itemDescription }}</p>

@@ -15,7 +15,7 @@ const props = withDefaults(defineProps<{
 <template>
   <div class="bg-white shadow-lg flex justify-between px-24 py-4 items-center">
     <a href="#">
-      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="250" height="50" />
+      <img alt="Vue logo" class="logo" src="../assets/Logo.svg" width="250" height="50" />
     </a>
 
     <div class="flex">

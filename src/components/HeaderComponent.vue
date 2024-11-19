@@ -51,7 +51,7 @@ import IconSearch from '@/components/icons/IconSearch.vue'
         </div>
       </div>
       <div class="flex relative mt-8">
-        <img alt="Food" class="" src="@/assets/headerfood.svg" />
+        <img alt="Food" class="" src="../assets/HeaderFood.svg" />
       </div>
     </div>
   </header>
