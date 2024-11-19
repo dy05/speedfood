@@ -25,7 +25,7 @@ function getImageUrl(): string {
 </script>
 
 <template>
-  <div class="card flex relative overflow-hidden rounded-md bg-white shadow-lg">
+  <div class="card flex relative overflow-hidden rounded-xl bg-white shadow-lg">
     <div v-if="alignText === 'left'" class="px-8 pt-16 pb-4 w-2/5 flex flex-col justify-between">
       <div>
         <div class="font-bold text-5xl">

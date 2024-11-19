@@ -25,15 +25,4 @@
 <path d="M47.6535 35.4512C47.686 32.9297 49.0401 30.5438 51.1883 29.2231C49.8331 27.2877 47.5632 26.0605 45.2016 25.9866C42.6827 25.7222 40.2408 27.4939 38.9572 27.4939C37.6488 27.4939 35.6726 26.0129 33.5445 26.0567C30.7706 26.1463 28.1847 27.7233 26.8351 30.1485C23.9341 35.1711 26.098 42.5527 28.8769 46.6126C30.2673 48.6006 31.8922 50.8213 34.0184 50.7425C36.0989 50.6562 36.876 49.4158 39.3875 49.4158C41.8756 49.4158 42.6046 50.7425 44.774 50.6925C47.0065 50.6562 48.4131 48.6956 49.7547 46.6887C50.7537 45.2722 51.5224 43.7066 52.0323 42.05C49.4087 40.9403 47.6566 38.2999 47.6535 35.4512Z" fill="#00746A"/>
 <path d="M43.556 23.3166C44.7733 21.8553 45.373 19.977 45.2278 18.0807C43.368 18.276 41.6501 19.1649 40.4164 20.5701C39.21 21.9431 38.5821 23.7883 38.7008 25.6122C40.5613 25.6313 42.3902 24.7666 43.556 23.3166Z" fill="#00746A"/>
 </g>
-<defs>
-<filter id="filter0_d_307_19500" x="0.5" y="0" width="200" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="5"/>
-<feGaussianBlur stdDeviation="5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.680498 0 0 0 0 0 0 0 0 0.26 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_307_19500"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_307_19500" result="shape"/>
-</filter>
-</defs>
 </svg>

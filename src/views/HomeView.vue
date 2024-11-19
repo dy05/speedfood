@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ValidateCommand from '@/components/ValidateCommand.vue'
+import ProductSold from '@/components/ProductSold.vue'
 import ProductCard from '@/components/ProductCard.vue'
 import IconChevronRight from '@/components/icons/IconChevronRight.vue'
 import SearchProduct from '@/components/SearchProduct.vue'
@@ -9,16 +10,16 @@ import CardItem from '@/components/CardItem.vue'
 <template>
   <div class="bg-white pt-20">
     <div class="flex gap-3 pb-8 px-24">
-      <ProductCard promotion-percent="15"
+      <ProductSold promotion-percent="15"
                    product-image="../assets/FoodPhoto.png"
                    product-name="Greys Vage" time-remaining="4"/>
-      <ProductCard promotion-percent="10"
+      <ProductSold promotion-percent="10"
                    product-image="../assets/Pasta.png"
                    product-name="Greys Vage" time-remaining="4"/>
-      <ProductCard promotion-percent="25"
+      <ProductSold promotion-percent="25"
                    product-image="../assets/Fruits.png"
                    product-name="Greys Vage" time-remaining="4"/>
-      <ProductCard promotion-percent="20"
+      <ProductSold promotion-percent="20"
                    product-image="../assets/Soup.png"
                    product-name="Greys Vage" time-remaining="4"/>
     </div>
@@ -31,44 +32,44 @@ import CardItem from '@/components/CardItem.vue'
         <div class="flex items-center flex-col w-72">
           <img src="@/assets/MapMarker.svg" class="text-green-700 h-24" alt="Map icon"/>
           <div>
-            <span class="font-semibold">
+            <span class="font-bold">
             Choisir la localisation
             </span>
           </div>
-          <p class="mt-3 text-center">
+          <p class="mt-3 text-center px-5">
             Choisir l'adresse de livraison
           </p>
         </div>
         <div class="flex items-center flex-col w-72">
           <img src="@/assets/Command.svg" class="text-green-700 h-24" alt="Command icon"/>
           <div>
-            <span class="font-semibold">
+            <span class="font-bold">
               Sélectionner la commande
             </span>
           </div>
-          <p class="mt-3 text-center">
+          <p class="mt-3 text-center px-5">
             Vous pouvez avoir plusieurs commandes
           </p>
         </div>
         <div class="flex items-center flex-col w-72">
           <img src="@/assets/Invoice.svg" alt="Invoice icon" class="h-24"/>
           <div>
-            <span class="font-semibold">
+            <span class="font-bold">
               Payer en plusieurs tranches
             </span>
           </div>
-          <p class="mt-3 text-center">
+          <p class="mt-3 text-center px-5">
             Vous pouvez plusieurs méthodes de paiement
           </p>
         </div>
         <div class="flex items-center flex-col w-72">
           <img src="@/assets/Donut.svg" alt="Donut icon" class="h-24"/>
           <div>
-            <span class="font-semibold">
+            <span class="font-bold">
             Manger équilibré
             </span>
           </div>
-          <p class="mt-3 text-center">
+          <p class="mt-3 text-center px-5">
             Manger des menus de qualité
           </p>
         </div>
@@ -80,6 +81,9 @@ import CardItem from '@/components/CardItem.vue'
         Menus populaires
       </h2>
       <div class="mt-5 flex justify-center">
+        <ProductSold promotion-percent="20"
+                     product-image="../assets/Soup.png"
+                     product-name="Greys Vage" time-remaining="4"/>
       </div>
     </div>
 
@@ -102,48 +106,48 @@ import CardItem from '@/components/CardItem.vue'
 
     <div class="pt-16 px-24 flex flex-col mt-8 bg-download">
       <div class="card bg-white shadow-xl rounded-xl p-4 mx-32 gap-4 flex items-center justify-center text-green-800 font-bold text-lg">
-        <div class="flex gap-2 items-center">
-          <img src="@/assets/DiscountIcon.svg" alt="Discount"/>
+        <div class="flex gap-2 items-center w-1/5">
+          <img class="w-16" src="@/assets/DiscountIcon.svg" alt="Discount"/>
           <span class="w-1/3">
             Réductions Journalières
           </span>
         </div>
 
-        <div class="border-r h-24 mx-4"></div>
+        <div class="border-r h-24 mx-5"></div>
 
-        <div class="flex gap-2 items-center">
-          <img src="@/assets/MapIcon.svg" alt="Map"/>
+        <div class="flex gap-2 items-center w-1/5">
+          <img class="w-16" src="@/assets/MapIcon.svg" alt="Map"/>
           <span class="w-1/3">
             Live Tracking
           </span>
         </div>
 
-        <div class="border-r h-24 mx-4"></div>
+        <div class="border-r h-24 mx-5"></div>
 
-        <div class="flex gap-2 items-center">
-          <img src="@/assets/TimerIcon.svg" alt="Timer"/>
+        <div class="flex gap-2 items-center w-1/5">
+          <img class="w-16" src="@/assets/TimerIcon.svg" alt="Timer"/>
           <span class="w-1/3">
             Livraison Rapide
           </span>
         </div>
       </div>
-      <div class="flex justify-between mt-12">
-        <div>
-          <img src="@/assets/Phones.svg" alt="Phones App"/>
+      <div class="flex justify-between mt-12 w-full">
+        <div class="w-3/5">
+          <img src="@/assets/Phones.svg" alt="Phones App" class="w-11/12"/>
         </div>
-        <div class="w-2/5 px-5 flex flex-col pb-32">
-          <h3 class="text-4xl text-green-700 font-bold">
+        <div class="w-2/5 flex flex-col pb-16 mt-16">
+          <h3 class="text-5xl text-green-700 font-bold">
             Installer l'application
           </h3>
-          <p>
+          <p class="text-sm mt-5 text-gray-600">
             C’est plus facile de commander sur notre application en profitant de fonctionnalités diverses.
           </p>
-          <div class="flex gap-2">
-            <a href="#">
-              <img src="@/assets/GooglePlayDownload.svg" class="w-24 h-16" alt="GooglePlay Button"/>
+          <div class="flex gap-2 mt-4">
+            <a href="#" class="bg-white rounded-lg flex items-center h-12 w-32 shadow-md">
+              <img src="@/assets/GooglePlayDownload.svg" class="w-24 mt-2" alt="GooglePlay Button"/>
             </a>
-            <a href="#">
-              <img src="@/assets/AppStoreDownload.svg" class="w-24 h-16" alt="AppleStore Button"/>
+            <a href="#" class="bg-white rounded-lg flex items-center h-12 w-32 shadow-md">
+              <img src="@/assets/AppStoreDownload.svg" class="w-24 mt-1" alt="AppleStore Button"/>
             </a>
           </div>
         </div>

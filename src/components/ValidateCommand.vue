@@ -6,7 +6,7 @@
           Êtes-vous prêt à commander les meilleurs menus ?
         </h2>
 
-        <button class="button-white mt-12 flex items-center gap-2 mx-auto bg-white rounded-md text-green-800 px-5 py-2 font-semibold">
+        <button class="button-white uppercase mt-12 flex items-center gap-2 mx-auto bg-white rounded-md text-green-800 px-5 py-2 font-bold">
           Valider la commande
           <IconChevronRight/>
         </button>

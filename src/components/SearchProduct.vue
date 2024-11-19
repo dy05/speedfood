@@ -95,11 +95,11 @@ function getImageUrl(productImage: string|null = null): string {
       </div>
     </div>
 
-    <div class="flex gap-8 mt-16">
+    <div class="flex gap-12 mt-16">
     <a href="#" class="flex items-center flex-col" v-for="product in props.products" v-bind:key="product.id">
-      <div class="flex items-center flex-col w-48 rounded-full overflow-hidden relative">
-        <!--            <span :style="{background: `${new URL('../assets/FoodPhoto.png', import.meta.url).href}`}" class="text-green-700 block h-48 object-contain"></span>-->
-        <img :src="getImageUrl(product.image)" class="text-green-700 h-48 object-cover" alt="Map icon"/>
+      <div class="flex items-center flex-col w-40 rounded-full overflow-hidden relative">
+        <!--            <span :style="{background: `${new URL('../assets/FoodPhoto.png', import.meta.url).href}`}" class="text-green-700 block h-40 object-contain"></span>-->
+        <img :src="getImageUrl(product.image)" class="text-green-700 h-40 object-cover" alt="Map icon"/>
       </div>
       <div class="mt-4">
         <span class="font-semibold text-xl">
